@@ -3,6 +3,9 @@
 ### Cuccaro et al. (2004)
 **Source**
 
+Cuccaro, S.A., Moulton, D.P., et al., 2004. A New Quantum Ripple-Carry Addition 
+Circuit. arXiv:quant-ph/0410184. 
+
 **IBM implementation**
 
 <img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/548aa4bf-12f6-47be-ba7a-06b466ec2c3e">
