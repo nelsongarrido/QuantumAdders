@@ -57,3 +57,18 @@ Zhou, R.G., et al., 2014. Novel designs for fault tolerant reversible binary cod
 
 <img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/9a74fcd8-626e-44ca-9cc2-20de74227b12">
 
+
+### Maslov et al. (2008) 
+
+**Source**
+
+Maslov, D., Negrevergne, C., et al., 2008. Quantum circuit simplification and level compaction. IEEE Trans. Comput. Aided Des. Integrated Circ. Syst. 27 (3), 436–444. 
+
+**IBM implementation**
+
+<img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/09ac8cb8-4d67-4a5d-9605-9b79f0484b5d">
+
+**Theoretical diagram**
+
+<img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/470aa0e7-058d-4d48-8534-86af541b918e">
+
