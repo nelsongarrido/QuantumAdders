@@ -20,7 +20,7 @@ Yamashita, S., et al., 2008. DDMF: an efficient decision diagram structure for d
 
 **IBM implementation**
 
-<img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/14b89eaa-0697-4226-884e-821eb953f851">
+<img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/3b770aeb-9ec0-4545-bc4b-b069afc08c7e">
 
 **Theoretical diagram**
 
