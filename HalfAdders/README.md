@@ -48,7 +48,7 @@ Hung, W.N., et al., 2006. Optimal synthesis of multiple output boolean functions
 
 **IBM implementation**
 
-<img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/bb13a930-16e0-4971-8b05-cf2c059a7152">
+<img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/479cac7b-5b98-431d-91eb-2719c26adce8">
 
 **Theoretical diagram**
 
