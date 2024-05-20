@@ -40,3 +40,18 @@ Sarma, R., Jain, R., 2018. Quantum gate implementation of a novel reversible hal
 
 <img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/2879e757-20a2-4c23-9b3b-a68413f2bbf8">
 
+
+### Hung et al. (2006) 
+
+**Source**
+Hung, W.N., et al., 2006. Optimal synthesis of multiple output boolean functions using a set of quantum gates by symbolic reachability analysis. IEEE Trans. Comput. Aided Des. Integrated Circ. Syst. 25 (9), 1652–1663. 
+
+**IBM implementation**
+
+<img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/bb13a930-16e0-4971-8b05-cf2c059a7152">
+
+**Theoretical diagram**
+
+<img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/53f1ea1b-8d66-40b1-bbbf-6be9b93946aa">
+
+
