@@ -26,3 +26,17 @@ Yamashita, S., et al., 2008. DDMF: an efficient decision diagram structure for d
 
 <img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/2104481b-c452-4c23-a621-7c8b57a6ad13">
 
+
+### Sarma and Jain (2018)
+**Source**
+
+Sarma, R., Jain, R., 2018. Quantum gate implementation of a novel reversible half adder and subtractor circuit. In: 2018 International Conference on Intelligent Circuits and Systems (ICICS). IEEE, pp. 72–76. 
+
+**IBM implementation**
+
+<img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/55ecd984-dc63-43b7-9448-100fdcff6b50">
+
+**Theoretical diagram**
+
+<img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/2879e757-20a2-4c23-9b3b-a68413f2bbf8">
+
