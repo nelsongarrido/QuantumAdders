@@ -43,3 +43,17 @@ Thapliyal, H., 2016. Mapping of subtractor and adder-subtractor circuits on reve
 
 <img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/61f2af60-d00c-4da2-902c-87c3ea7a7642">
 
+
+### Zhou et al. (2014)
+
+**Source**
+Zhou, R.G., et al., 2014. Novel designs for fault tolerant reversible binary coded decimal adders. Int. J. Electron. 101 (10), 1336–1356. 
+
+**IBM implementation**
+
+<img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/4d4fbdc2-1cb3-4e92-a6ec-403460cddb84">
+
+**Theoretical diagram**
+
+<img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/9a74fcd8-626e-44ca-9cc2-20de74227b12">
+
