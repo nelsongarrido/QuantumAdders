@@ -9,7 +9,7 @@ tdg q[2];
 t q[1];
 cx q[2], q[1];
 tdg q[1];
-t q[2];
+h q[2];
 barrier q[0], q[1], q[2];
 cx q[1], q[0];
 barrier q[0], q[1], q[2];
