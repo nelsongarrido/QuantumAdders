@@ -27,3 +27,19 @@ Wang, F., et al., 2016. Improved quantum ripple-carry addition circuit. Sci. Chi
 **Theoretical diagram**
 
 <img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/f99cca97-76be-4c86-a227-9af2d898638c">
+
+
+### Thapliyal (2016) 
+
+**Source**
+
+Thapliyal, H., 2016. Mapping of subtractor and adder-subtractor circuits on reversible quantum gates. In: Transactions on Computational Science XXVII. Springer, pp. 10–34. 
+
+**IBM implementation**
+
+<img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/71576ec5-635e-4011-b8ef-a7c85e74d254">
+
+**Theoretical diagram**
+
+<img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/61f2af60-d00c-4da2-902c-87c3ea7a7642">
+
