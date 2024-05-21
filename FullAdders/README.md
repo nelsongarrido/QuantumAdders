@@ -13,7 +13,7 @@ Circuit. arXiv:quant-ph/0410184.
 **Theoretical diagram**
 
 <img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/43803224-5c33-4950-bc6d-25d2f5f803e8">
-
+<hr>
 
 ### Wang et al. (2016)
 **Source**
@@ -27,7 +27,7 @@ Wang, F., et al., 2016. Improved quantum ripple-carry addition circuit. Sci. Chi
 **Theoretical diagram**
 
 <img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/f99cca97-76be-4c86-a227-9af2d898638c">
-
+<hr>
 
 ### Thapliyal (2016) 
 
@@ -42,7 +42,7 @@ Thapliyal, H., 2016. Mapping of subtractor and adder-subtractor circuits on reve
 **Theoretical diagram**
 
 <img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/61f2af60-d00c-4da2-902c-87c3ea7a7642">
-
+<hr>
 
 ### Zhou et al. (2014)
 
@@ -56,7 +56,7 @@ Zhou, R.G., et al., 2014. Novel designs for fault tolerant reversible binary cod
 **Theoretical diagram**
 
 <img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/9a74fcd8-626e-44ca-9cc2-20de74227b12">
-
+<hr>
 
 ### Maslov et al. (2008) 
 
@@ -71,4 +71,4 @@ Maslov, D., Negrevergne, C., et al., 2008. Quantum circuit simplification and le
 **Theoretical diagram**
 
 <img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/470aa0e7-058d-4d48-8534-86af541b918e">
-
+<hr>
