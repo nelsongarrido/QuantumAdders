@@ -18,8 +18,8 @@ Nielsen, M.A., Chuang, I.L., 2011. Quantum Computation and Quantum Information, 
     <th>Delay</th>
   </tr>
   <tr>
-    <td>2</td>
-    <td>2</td>
+    <td>16</td>
+    <td>12</td>
   </tr>
   </table>
  <hr> 
