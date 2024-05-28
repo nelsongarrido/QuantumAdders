@@ -6,7 +6,7 @@
 
 **Theoretical diagram**
 
-<img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/e07de14f-8134-4aa6-a4c3-34034d60f115">
+<img width="50" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/e07de14f-8134-4aa6-a4c3-34034d60f115">
 
 <table>
   <tr>
