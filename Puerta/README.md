@@ -42,3 +42,25 @@
   </tr>
   </table>
  <hr>
+
+### Toffoli gate
+
+**IBM implementation**
+
+<img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/828e3923-65b0-4c13-855b-8d9d7d92568a">
+
+**Theoretical diagram**
+
+<img width="50" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/0fe6baf1-990d-4f21-9c39-5a5b40c5f9dc">
+
+<table>
+  <tr>
+    <th>Quantum Cost</th>
+    <th>Delay</th>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>11</td>
+  </tr>
+  </table>
+ <hr>
