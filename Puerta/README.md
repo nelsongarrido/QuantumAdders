@@ -1,3 +1,24 @@
+### Simple logic gates
+
+<table>
+  <tr>    
+    <th>Description</th>
+    <th>Quantum Cost</th>
+    <th>Delay</th>
+  </tr>
+  <tr>
+    <td>Pauli-X</td>
+    <td>1</td>
+    <td>1</td>
+  </tr>
+    <tr>
+    <td>CNOT</td>
+    <td>1</td>
+    <td>1</td>
+  </tr>
+  </table>
+ <hr> 
+
 ### Controlled-V gate
 
 **IBM implementation**
