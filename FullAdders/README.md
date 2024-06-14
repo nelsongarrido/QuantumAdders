@@ -43,8 +43,8 @@ Wang, F., et al., 2016. Improved quantum ripple-carry addition circuit. Sci. Chi
     <th>Delay</th>
   </tr>
   <tr>
-    <td>6</td>
-    <td>5</td>
+    <td>20</td>
+    <td>15</td>
   </tr>
   </table>
 <hr>
