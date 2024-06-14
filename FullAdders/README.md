@@ -19,8 +19,8 @@ Circuit. arXiv:quant-ph/0410184.
     <th>Delay</th>
   </tr>
   <tr>
-    <td>6</td>
-    <td>6</td>
+    <td>34</td>
+    <td>34</td>
   </tr>
   </table>
 <hr>
