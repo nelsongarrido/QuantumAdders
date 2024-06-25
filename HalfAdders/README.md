@@ -16,10 +16,14 @@ Nielsen, M.A., Chuang, I.L., 2011. Quantum Computation and Quantum Information, 
   <tr>
     <th>Quantum Cost</th>
     <th>Delay</th>
+    <th>Amount of Qubits</th>
+    <th>Garbage Output</th>
   </tr>
   <tr>
     <td>16</td>
     <td>12</td>
+    <td>3</td>
+    <td>0</td>
   </tr>
   </table>
  <hr> 
