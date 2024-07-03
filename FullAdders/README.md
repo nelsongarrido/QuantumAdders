@@ -17,10 +17,14 @@ Circuit. arXiv:quant-ph/0410184.
   <tr>
     <th>Quantum Cost</th>
     <th>Delay</th>
+    <th>Amount of Qubits</th>
+    <th>Garbage Output</th>    
   </tr>
   <tr>
     <td>34</td>
     <td>34</td>
+    <td>3</td>
+    <td>0</td>    
   </tr>
   </table>
 <hr>
@@ -41,10 +45,14 @@ Wang, F., et al., 2016. Improved quantum ripple-carry addition circuit. Sci. Chi
   <tr>
     <th>Quantum Cost</th>
     <th>Delay</th>
+    <th>Amount of Qubits</th>
+    <th>Garbage Output</th>        
   </tr>
   <tr>
     <td>20</td>
     <td>15</td>
+    <td>4</td>
+    <td>0</td>    
   </tr>
   </table>
 <hr>
@@ -66,10 +74,14 @@ Thapliyal, H., 2016. Mapping of subtractor and adder-subtractor circuits on reve
   <tr>
     <th>Quantum Cost</th>
     <th>Delay</th>
+    <th>Amount of Qubits</th>
+    <th>Garbage Output</th>      
   </tr>
   <tr>
     <td>30</td>
     <td>20</td>
+    <td>4</td>
+    <td>0</td>    
   </tr>
   </table>
 <hr>
@@ -90,10 +102,14 @@ Zhou, R.G., et al., 2014. Novel designs for fault tolerant reversible binary cod
   <tr>
     <th>Quantum Cost</th>
     <th>Delay</th>
+    <th>Amount of Qubits</th>
+    <th>Garbage Output</th>    
   </tr>
   <tr>
     <td>33</td>
     <td>25</td>
+    <td>5</td>
+    <td>2</td>    
   </tr>
   </table>
 <hr>
@@ -115,10 +131,14 @@ Maslov, D., Negrevergne, C., et al., 2008. Quantum circuit simplification and le
   <tr>
     <th>Quantum Cost</th>
     <th>Delay</th>
+    <th>Amount of Qubits</th>
+    <th>Garbage Output</th>     
   </tr>
   <tr>
     <td>30</td>
     <td>21</td>
+    <td>4</td>
+    <td>0</td>    
   </tr>
   </table>
 <hr>
