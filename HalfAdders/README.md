@@ -44,10 +44,14 @@ Yamashita, S., et al., 2008. DDMF: an efficient decision diagram structure for d
   <tr>
     <th>Quantum Cost</th>
     <th>Delay</th>
+    <th>Amount of Qubits</th>
+    <th>Garbage Output</th>
   </tr>
   <tr>
     <td>23</td>
     <td>17</td>
+    <td>3</td>
+    <td>0</td>    
   </tr>
   </table>
 <hr> 
@@ -68,10 +72,14 @@ Sarma, R., Jain, R., 2018. Quantum gate implementation of a novel reversible hal
   <tr>
     <th>Quantum Cost</th>
     <th>Delay</th>
+    <th>Amount of Qubits</th>
+    <th>Garbage Output</th>    
   </tr>
   <tr>
     <td>22</td>
     <td>17</td>
+    <td>3</td>
+    <td>0</td>     
   </tr>
   </table>
 <hr> 
