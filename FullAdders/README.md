@@ -167,7 +167,7 @@ Rangaraju, H G; Venugopal, U; Muralidhara, K N; Raja, K B . (2010). Low Power Re
     <td>32</td>
     <td>24</td>
     <td>4</td>
-    <td>0</td>    
+    <td>1</td>    
   </tr>
   </table>
 <hr>
