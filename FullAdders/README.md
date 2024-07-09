@@ -142,3 +142,32 @@ Maslov, D., Negrevergne, C., et al., 2008. Quantum circuit simplification and le
   </tr>
   </table>
 <hr>
+
+### Rangaraju et al. (2010)
+
+**Source**
+
+Rangaraju, H G; Venugopal, U; Muralidhara, K N; Raja, K B . (2010). Low Power Reversible Parallel Binary Adder/Subtractor. International Journal of VLSI Design & Communication Systems, 1(3), 23–34. doi:10.5121/vlsic.2010.1303
+
+**IBM implementation**
+
+<img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/f4c82832-c9dd-405b-84a5-eee659aede48">
+
+**Theoretical diagram**
+
+<img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/47f93df0-7b3a-445c-82de-3b85f30c17a2">
+<table>
+  <tr>
+    <th>Quantum Cost</th>
+    <th>Delay</th>
+    <th>Amount of Qubits</th>
+    <th>Garbage Output</th>     
+  </tr>
+  <tr>
+    <td>32</td>
+    <td>24</td>
+    <td>4</td>
+    <td>0</td>    
+  </tr>
+  </table>
+<hr>
