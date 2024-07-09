@@ -155,7 +155,7 @@ Rangaraju, H G; Venugopal, U; Muralidhara, K N; Raja, K B . (2010). Low Power Re
 
 **Theoretical diagram**
 
-<img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/47f93df0-7b3a-445c-82de-3b85f30c17a2">
+<img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/7d57f84a-2c35-4d37-9877-c4776e1f349b">
 <table>
   <tr>
     <th>Quantum Cost</th>
