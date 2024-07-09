@@ -120,7 +120,7 @@ Rangaraju, H G; Venugopal, U; Muralidhara, K N; Raja, K B . (2010). Low Power Re
 
 **IBM implementation**
 
-<img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/eefd228d-1869-499d-be65-09670bc710b1">
+<img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/031a0169-df13-4f36-8314-cc93e0349e92">
 
 **Theoretical diagram**
 
