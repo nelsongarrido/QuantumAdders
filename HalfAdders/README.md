@@ -112,3 +112,32 @@ Hung, W.N., et al., 2006. Optimal synthesis of multiple output boolean functions
   </table>
  <hr>
 
+### Rangaraju et al. (2010)
+
+**Source**
+
+Rangaraju, H G; Venugopal, U; Muralidhara, K N; Raja, K B . (2010). Low Power Reversible Parallel Binary Adder/Subtractor. International Journal of VLSI Design & Communication Systems, 1(3), 23–34. doi:10.5121/vlsic.2010.1303
+
+**IBM implementation**
+
+<img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/eefd228d-1869-499d-be65-09670bc710b1">
+
+**Theoretical diagram**
+
+<img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/b58943c9-4f9a-42ee-a358-cb213a368c5f">
+<table>
+  <tr>
+    <th>Quantum Cost</th>
+    <th>Delay</th>
+    <th>Amount of Qubits</th>
+    <th>Garbage Output</th>     
+  </tr>
+  <tr>
+    <td>19</td>
+    <td>15</td>
+    <td>4</td>
+    <td>2</td>    
+  </tr>
+  </table>
+<hr>
+
