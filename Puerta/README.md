@@ -27,7 +27,7 @@
 
 **Theoretical diagram**
 
-<img width="50" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/43ca35e6-5604-4ab5-bb73-78ad46a40f37">
+<img width="50" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/4011449b-0aeb-4f8f-b09b-bad058bdada7">
 
 <table>
   <tr>
