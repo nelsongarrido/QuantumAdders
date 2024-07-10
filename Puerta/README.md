@@ -94,7 +94,7 @@
 
 **Theoretical diagram**
 
-<img width="50" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/15d04e72-d309-43ef-817d-6b589acbe83b">
+<img width="50" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/d656d544-2bfe-4c5c-a2cf-92f41fef9dc3">
 
 <table>
   <tr>
