@@ -85,3 +85,25 @@
   </tr>
   </table>
  <hr>
+
+### CSWAp gate
+
+**IBM implementation**
+
+<img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/15d04e72-d309-43ef-817d-6b589acbe83b">
+
+**Theoretical diagram**
+
+<img width="50" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/15d04e72-d309-43ef-817d-6b589acbe83b">
+
+<table>
+  <tr>
+    <th>Quantum Cost</th>
+    <th>Delay</th>
+  </tr>
+  <tr>
+    <td>17</td>
+    <td>13</td>
+  </tr>
+  </table>
+ <hr>
