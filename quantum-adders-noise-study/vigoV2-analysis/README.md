@@ -8,27 +8,53 @@ Para ello, los circuitos se han clasificado en dos categorías: Half Adder, Full
 El objetivo es evaluar su desempeño en condiciones de ruido simuladas, identificando cuáles presentan un mejor comportamiento.
 
 ### Elección del backend: FakeVigoV2
+
+Para este proyecto se seleccionó el backend **FakeVigoV2** debido a que proporciona un entorno de simulación realista, incorporando parámetros de ruido basados en datos de calibración de un dispositivo cuántico real de IBM. Esto permite evaluar el comportamiento de los circuitos sumadores bajo condiciones cercanas a la realidad, pero sin requerir acceso a hardware cuántico físico.
+
 <table>
   <tr>    
-    <th>Description</th>
-    <th>Quantum Cost</th>
-    <th>Delay</th>
+    <th>Característica</th>
+    <th>¿Incluida en FakeVigoV2?</th>
+    <th>Descripción</th>
   </tr>
   <tr>
-    <td>Pauli-X</td>
-    <td>1</td>
-    <td>1</td>
+    <td>Ruido de un solo qubit</td>
+    <td><p>&#10003;</p></td>
+    <td>Error depolarizante y relajación térmica.</td>
   </tr>
-    <tr>
-    <td>CNOT</td>
-    <td>1</td>
-    <td>1</td>
+  <tr>
+    <td>Ruido de dos qubits</td>
+    <td><p>&#10003;</p></td>
+    <td>Error depolarizante seguido por relajación térmica en ambos qubits.</td>
   </tr>
-  </table>
- <hr> 
+  <tr>
+    <td>Error de lectura</td>
+    <td><p>&#10003;</p></td>
+    <td>Simula la probabilidad de medición incorrecta de un qubit.</td>
+  </tr>
+  <tr>
+    <td>Simulación sin ruido disponible</td>
+    <td><p>&#10003;</p></td>
+    <td>Usando <code>AerSimulator</code> sin parámetros de ruido para referencia.</td>
+  </tr>
+</table>
+<hr>
 
-### Controlled-V gate
+Topología física de VigoV2.
+Cuenta con 5 qubits. Lo que es suficiente para implementar los circuitos, tanto Half Adders como Full Adders, seleccionados.
 
-**IBM implementation**
 
-<img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/10565829-55cd-4420-9d32-344eba7a12ac">
+### Estructura del proyecto
+En este repositorio encontrarás:
+
+Una notebook de Colab con el código para ejecutar los circuitos analizados.    
+En la notebook se generan:
+<ul>
+      <li>El circuito original.</li>
+      <li>El circuito transpilado para FakeVigoV2.</li>
+      <li>Gráficos de resultados con y sin ruido.</li>
+</ul>
+    
+### Ejecución y resultados
+
+El análisis se centra en comparar la fidelidad de salida y el comportamiento de cada circuito bajo condiciones ideales y con ruido, aprovechando las capacidades de simulación realista de FakeVigoV2.
