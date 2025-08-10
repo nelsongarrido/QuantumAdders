@@ -20,11 +20,11 @@ Fundamentals of Electronics, Communications and Computer Sciences, E91-A(12), 37
   </tr>
   <tr>
     <td align="center">
-      <img width="1980" height="909" alt="circuito_original(1)" src="https://github.com/user-attachments/assets/39a50dcc-8cfc-4b41-914e-e40391a42a7f" />
+      <img width="5263" height="1875" alt="circuito_original(3)" src="https://github.com/user-attachments/assets/32999298-1ae2-4e1a-833e-bde6020e7442" />
     </td>
     <td align="center">
-      <img width="5094" height="942" alt="circuito_transpilado(1)" src="https://github.com/user-attachments/assets/dd8ae414-9d5c-42e9-b234-7c992c33e4bc" />
-    </td>
+       <img width="5288" height="1908" alt="circuito_transpilado(3)" src="https://github.com/user-attachments/assets/3534407d-3a2c-421a-b39c-ccd0a256a814" />
+   </td>
   </tr>
 
   <tr>    
@@ -33,10 +33,10 @@ Fundamentals of Electronics, Communications and Computer Sciences, E91-A(12), 37
   </tr>
   <tr>
     <td align="center">
-      <img width="1890" height="1406" alt="ejecucion_sin_ruido(1)" src="https://github.com/user-attachments/assets/9d30cf07-81e0-4e0d-9ed2-cc0f1419db7d" />
+     <img width="1890" height="1406" alt="ejecucion_sin_ruido(3)" src="https://github.com/user-attachments/assets/9fa6ef08-fed1-4ffa-9721-057ec76b9be1" />
     </td>
     <td align="center">
-      <img width="1890" height="1406" alt="ejecucion_con_ruido(1)" src="https://github.com/user-attachments/assets/1fc713aa-f941-44e3-a5bf-dedda0821ce6" />
+      <img width="1890" height="1406" alt="ejecucion_con_ruido(3)" src="https://github.com/user-attachments/assets/53e8abe8-91ef-4233-9a3c-56653c565e94" />
     </td>
   </tr>
 </table>
@@ -49,10 +49,10 @@ Fundamentals of Electronics, Communications and Computer Sciences, E91-A(12), 37
     <th>Garbage Output</th>
   </tr>
   <tr>
-    <td>22</td>
-    <td>19</td>
-    <td>3</td>
-    <td>0</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   </table>
  <hr> 
