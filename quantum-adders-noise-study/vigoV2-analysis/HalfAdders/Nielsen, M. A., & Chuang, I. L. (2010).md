@@ -13,31 +13,29 @@ Nielsen, M.A., Chuang, I.L., 2011. Quantum Computation and Quantum Information, 
     </td>
   </tr>
   
-  <!-- Primer par de headers -->
   <tr>
     <th>IBM Composer implementation</th>
     <th>Transpiled Circuit on FakeVigoV2</th>
   </tr>
   <tr>
     <td align="center">
-      <img width="400" alt="circuito_original" src="https://github.com/user-attachments/assets/df139afa-8bdf-451c-8acf-671d8109080f" />
+      <img width="1980" height="909" alt="circuito_original(1)" src="https://github.com/user-attachments/assets/39a50dcc-8cfc-4b41-914e-e40391a42a7f" />
     </td>
     <td align="center">
-      <img width="400" alt="circuito_transpilado" src="https://github.com/user-attachments/assets/a555bb94-e26d-45df-a2e5-1f5546f6bfa3" />
+      <img width="5094" height="942" alt="circuito_transpilado(1)" src="https://github.com/user-attachments/assets/dd8ae414-9d5c-42e9-b234-7c992c33e4bc" />
     </td>
   </tr>
 
-  <!-- Segundo par de headers -->
   <tr>    
     <th>Execution Results — Noise-Free Baseline</th>
     <th>Execution Results — With Noise</th>
   </tr>
   <tr>
     <td align="center">
-      <img width="400" alt="ejecucion_sin_ruido" src="https://github.com/user-attachments/assets/c8238d53-20ea-4781-9785-f4940efc741a" />
+      <img width="1890" height="1406" alt="ejecucion_sin_ruido(1)" src="https://github.com/user-attachments/assets/9d30cf07-81e0-4e0d-9ed2-cc0f1419db7d" />
     </td>
     <td align="center">
-      <img width="400" alt="ejecucion_con_ruido" src="https://github.com/user-attachments/assets/245ea3f8-89f0-4786-81d4-4cbf8bd461f9" />
+      <img width="1890" height="1406" alt="ejecucion_con_ruido(1)" src="https://github.com/user-attachments/assets/1fc713aa-f941-44e3-a5bf-dedda0821ce6" />
     </td>
   </tr>
 </table>
