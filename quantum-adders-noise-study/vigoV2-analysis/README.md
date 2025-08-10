@@ -43,7 +43,9 @@ Para este proyecto se seleccionó el backend **FakeVigoV2** debido a que proporc
 Topología física de VigoV2.
 Cuenta con 5 qubits. Lo que es suficiente para implementar los circuitos, tanto Half Adders como Full Adders, seleccionados.
 
-<img width="300" height="300" alt="topologia_backend" src="https://github.com/user-attachments/assets/32a95126-823a-4312-921b-79ace1203e67" />
+<div align="center">
+  <img width="300" height="300" alt="topologia_backend" src="https://github.com/user-attachments/assets/32a95126-823a-4312-921b-79ace1203e67" />
+</div>
 
 ### Estructura del proyecto
 En este repositorio encontrarás:
