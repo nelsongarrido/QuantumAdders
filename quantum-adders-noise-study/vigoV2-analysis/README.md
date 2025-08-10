@@ -19,22 +19,22 @@ Para este proyecto se seleccionó el backend **FakeVigoV2** debido a que proporc
   </tr>
   <tr>
     <td>Ruido de un solo qubit</td>
-    <td><p>&#10003;</p></td>
+    <td><div align="center">&#10003;</div></td>
     <td>Error depolarizante y relajación térmica.</td>
   </tr>
   <tr>
     <td>Ruido de dos qubits</td>
-    <td><p>&#10003;</p></td>
+    <td><div align="center">&#10003;</div></td>
     <td>Error depolarizante seguido por relajación térmica en ambos qubits.</td>
   </tr>
   <tr>
     <td>Error de lectura</td>
-    <td><p>&#10003;</p></td>
+    <td><div align="center">&#10003;</div></td>
     <td>Simula la probabilidad de medición incorrecta de un qubit.</td>
   </tr>
   <tr>
     <td>Simulación sin ruido disponible</td>
-    <td><p>&#10003;</p></td>
+    <td><div align="center">&#10003;</div></td>
     <td>Usando <code>AerSimulator</code> sin parámetros de ruido para referencia.</td>
   </tr>
 </table>
@@ -43,6 +43,7 @@ Para este proyecto se seleccionó el backend **FakeVigoV2** debido a que proporc
 Topología física de VigoV2.
 Cuenta con 5 qubits. Lo que es suficiente para implementar los circuitos, tanto Half Adders como Full Adders, seleccionados.
 
+<img width="300" height="300" alt="topologia_backend" src="https://github.com/user-attachments/assets/32a95126-823a-4312-921b-79ace1203e67" />
 
 ### Estructura del proyecto
 En este repositorio encontrarás:
