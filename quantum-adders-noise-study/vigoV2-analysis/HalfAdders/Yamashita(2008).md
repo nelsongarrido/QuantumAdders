@@ -10,7 +10,7 @@ Fundamentals of Electronics, Communications and Computer Sciences, E91-A(12), 37
   </tr>
   <tr>
     <td colspan="2" align="center">
-
+      <img width="400" alt="Captura de pantalla 2025-08-10 182908" src="https://github.com/user-attachments/assets/ac2c5a92-2e92-4fc4-bba1-3db1625f6304" />
     </td>
   </tr>
   
