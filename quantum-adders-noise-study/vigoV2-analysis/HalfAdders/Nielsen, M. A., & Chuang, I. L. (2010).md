@@ -48,10 +48,10 @@ Nielsen, M.A., Chuang, I.L., 2011. Quantum Computation and Quantum Information, 
     <th>Garbage Output</th>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>22</td>
+    <td>19</td>
+    <td>3</td>
+    <td>0</td>
   </tr>
   </table>
  <hr> 
