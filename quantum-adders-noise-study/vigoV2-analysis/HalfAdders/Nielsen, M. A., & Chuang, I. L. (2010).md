@@ -3,26 +3,44 @@
 
 Nielsen, M.A., Chuang, I.L., 2011. Quantum Computation and Quantum Information, 10th anniversary edition. 
 
-**Theoretical diagram**
+<table>
+   <tr>
+    <th colspan="2">Theoretical diagram</th>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img width="300" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/5b6dc7cd-4c97-4dbe-a604-dc3206c53813">
+    </td>
+  </tr>
+  
+  <!-- Primer par de headers -->
+  <tr>
+    <th>IBM Composer implementation</th>
+    <th>Transpiled Circuit on FakeVigoV2</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img width="400" alt="circuito_original" src="https://github.com/user-attachments/assets/df139afa-8bdf-451c-8acf-671d8109080f" />
+    </td>
+    <td align="center">
+      <img width="400" alt="circuito_transpilado" src="https://github.com/user-attachments/assets/a555bb94-e26d-45df-a2e5-1f5546f6bfa3" />
+    </td>
+  </tr>
 
-<img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/5b6dc7cd-4c97-4dbe-a604-dc3206c53813">
-
-**IBM Composer implementation**
-
-<img width="256" alt="IBM implementation" src="https://github.com/nelsongarrido/quantumAdders-/assets/6036814/1556c27b-8616-4284-b1bb-926274a8d498">
-
-**Transpiled Circuit on FakeVigoV2**
-
-<img width="256" alt="circuito_transpilado" src="https://github.com/user-attachments/assets/375cc224-1586-495c-919b-0d4e927dd7f8" />
-
-**Execution Results — With Noise**
-
-<img width="256" alt="ejecucion_sin_ruido" src="https://github.com/user-attachments/assets/c570dc6d-04f9-4608-a045-28d81408495a" />
-
-**Execution Results — Noise-Free Baseline**
-
-<img width="256" alt="ejecucion_con_ruido" src="https://github.com/user-attachments/assets/ebfc4220-d82c-4793-a4bb-9084616ce092" />
-
+  <!-- Segundo par de headers -->
+  <tr>    
+    <th>Execution Results — Noise-Free Baseline</th>
+    <th>Execution Results — With Noise</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img width="400" alt="ejecucion_sin_ruido" src="https://github.com/user-attachments/assets/c8238d53-20ea-4781-9785-f4940efc741a" />
+    </td>
+    <td align="center">
+      <img width="400" alt="ejecucion_con_ruido" src="https://github.com/user-attachments/assets/245ea3f8-89f0-4786-81d4-4cbf8bd461f9" />
+    </td>
+  </tr>
+</table>
 
 <table>
   <tr>
