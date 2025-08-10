@@ -3,9 +3,8 @@
 ### Objetivo del proyecto
 
 Este proyecto tiene como finalidad analizar los principales circuitos sumadores propuestos en la literatura.
-Para ello, los circuitos se han clasificado en dos categorías:
-    * Half Adder
-    * Full Adder
+Para ello, los circuitos se han clasificado en dos categorías: Half Adder, Full Adder.
+
 El objetivo es evaluar su desempeño en condiciones de ruido simuladas, identificando cuáles presentan un mejor comportamiento.
 
 ### Elección del backend: FakeVigoV2
