@@ -28,13 +28,6 @@ Este proyecto estudia algoritmos sumadores cuánticos ejecutados en simuladores 
 
 ---
 
-### 4. Profundidad efectiva y decoherencia
-- **¿Qué es?** Tiempo de ejecución del circuito en relación a los tiempos de decoherencia del hardware.
-- **Cómo se mide:** Se analiza la profundidad del circuito y la cantidad de compuertas multi-qubit (como CNOTs).
-- **Relevancia:** Permite inferir la susceptibilidad del circuito al ruido temporal.
-
----
-
 ### 5. Variabilidad entre ejecuciones
 - **¿Qué es?** Evalúa la consistencia del circuito ejecutado varias veces bajo las mismas condiciones.
 - **Cómo se mide:** Se corre el mismo circuito múltiples veces y se calcula la varianza de los histogramas.
