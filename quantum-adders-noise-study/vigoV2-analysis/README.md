@@ -1,63 +1,81 @@
 
-##  Análisis de Circuitos Sumadores Cuánticos con Ruido en FakeVigoV2
-### Objetivo del proyecto
+# Evaluación de Circuitos Cuánticos en Ambientes Ruidosos
 
-Este proyecto tiene como finalidad analizar los principales circuitos sumadores propuestos en la literatura.
-Para ello, los circuitos se han clasificado en dos categorías: Half Adder, Full Adder.
+Este proyecto estudia algoritmos sumadores cuánticos ejecutados en simuladores con ruido, específicamente sobre la arquitectura **IBM VigoV2**. Se analizan distintas métricas para evaluar el impacto del ruido en la fidelidad y precisión de los resultados cuánticos.
 
-El objetivo es evaluar su desempeño en condiciones de ruido simuladas, identificando cuáles presentan un mejor comportamiento.
+---
 
-### Elección del backend: FakeVigoV2
+## MÉTRICAS RECOMENDADAS PARA AMBIENTES CON RUIDO
 
-Para este proyecto se seleccionó el backend **FakeVigoV2** debido a que proporciona un entorno de simulación realista, incorporando parámetros de ruido basados en datos de calibración de un dispositivo cuántico real de IBM. Esto permite evaluar el comportamiento de los circuitos sumadores bajo condiciones cercanas a la realidad, pero sin requerir acceso a hardware cuántico físico.
+### 1. Fidelidad de salida (Output Fidelity)
+- **¿Qué es?** Mide cuán parecida es la distribución de salida ruidosa a la distribución ideal (sin ruido).
+- **Cómo se mide:** Se calcula la *fidelity* entre el histograma ideal y el histograma ruidoso.
+- **Relevancia:** Refleja directamente cómo el ruido afecta la confiabilidad del resultado del sumador.
 
-<table>
-  <tr>    
-    <th>Característica</th>
-    <th>¿Incluida en FakeVigoV2?</th>
-    <th>Descripción</th>
-  </tr>
-  <tr>
-    <td>Ruido de un solo qubit</td>
-    <td><div align="center">&#10003;</div></td>
-    <td>Error depolarizante y relajación térmica.</td>
-  </tr>
-  <tr>
-    <td>Ruido de dos qubits</td>
-    <td><div align="center">&#10003;</div></td>
-    <td>Error depolarizante seguido por relajación térmica en ambos qubits.</td>
-  </tr>
-  <tr>
-    <td>Error de lectura</td>
-    <td><div align="center">&#10003;</div></td>
-    <td>Simula la probabilidad de medición incorrecta de un qubit.</td>
-  </tr>
-  <tr>
-    <td>Simulación sin ruido disponible</td>
-    <td><div align="center">&#10003;</div></td>
-    <td>Usando <code>AerSimulator</code> sin parámetros de ruido para referencia.</td>
-  </tr>
-</table>
-<hr>
+---
 
-Topología física de VigoV2.
-Cuenta con 5 qubits. Lo que es suficiente para implementar los circuitos, tanto Half Adders como Full Adders, seleccionados.
+### 2. Tasa de éxito / Probabilidad de acierto (Success Probability)
+- **¿Qué es?** Proporción de ejecuciones que resultan en el resultado correcto.
+- **Cómo se mide:** Cuántas veces aparece el resultado correcto sobre el total de *shots*.
+- **Relevancia:** Útil si se espera un único resultado (por ejemplo, suma exacta como `2 + 3 = 5 → 101`).
 
-<div align="center">
-  <img width="300" height="300" alt="topologia_backend" src="https://github.com/user-attachments/assets/32a95126-823a-4312-921b-79ace1203e67" />
-</div>
+---
 
-### Estructura del proyecto
-En este repositorio encontrarás:
+### 3. Distribución de errores
+- **¿Qué es?** Observa qué estados incorrectos son más comunes.
+- **Cómo se mide:** Se identifican los estados más frecuentes distintos del correcto.
+- **Relevancia:** Puede revelar si hay errores sistemáticos (estructurales) o aleatorios (aleatoriedad del ruido).
 
-Una notebook de Colab con el código para ejecutar los circuitos analizados.    
-En la notebook se generan:
-<ul>
-      <li>El circuito original.</li>
-      <li>El circuito transpilado para FakeVigoV2.</li>
-      <li>Gráficos de resultados con y sin ruido.</li>
-</ul>
-    
-### Ejecución y resultados
+---
 
-El análisis se centra en comparar la fidelidad de salida y el comportamiento de cada circuito bajo condiciones ideales y con ruido, aprovechando las capacidades de simulación realista de FakeVigoV2.
+### 4. Profundidad efectiva y decoherencia
+- **¿Qué es?** Tiempo de ejecución del circuito en relación a los tiempos de decoherencia del hardware.
+- **Cómo se mide:** Se analiza la profundidad del circuito y la cantidad de compuertas multi-qubit (como CNOTs).
+- **Relevancia:** Permite inferir la susceptibilidad del circuito al ruido temporal.
+
+---
+
+### 5. Variabilidad entre ejecuciones
+- **¿Qué es?** Evalúa la consistencia del circuito ejecutado varias veces bajo las mismas condiciones.
+- **Cómo se mide:** Se corre el mismo circuito múltiples veces y se calcula la varianza de los histogramas.
+- **Relevancia:** Evalúa la estabilidad y confiabilidad del comportamiento cuántico.
+
+---
+
+### 6. Comparación entre distintas topologías
+- **¿Qué es?** Se prueba el mismo circuito sobre diferentes conectividades físicas (emuladores o dispositivos).
+- **Cómo se mide:** Se transpila para cada topología y se comparan métricas como fidelidad y tasa de error.
+- **Relevancia:** Ayuda a determinar si un diseño es más robusto ante restricciones físicas del hardware.
+
+---
+
+## Estructura sugerida para artículo académico
+
+### 1. Introducción
+- Contexto de computación cuántica ruidosa
+- Motivación de evaluar sumadores en simuladores IBM
+
+### 2. Diseño de circuitos sumadores
+- Tipos implementados: Ripple-Carry, Carry Lookahead, Cuántico Modular
+
+### 3. Evaluación en ambiente ideal
+- Métricas: coste cuántico, profundidad, delay
+
+### 4. Evaluación en ambiente ruidoso
+- Descripción del simulador con ruido (IBM VigoV2)
+- Fidelidad, tasa de error, distribución de errores, robustez
+
+### 5. Discusión
+- ¿Qué circuitos son más robustos frente al ruido?
+- ¿Qué tipo de errores son más comunes?
+
+### 6. Conclusiones y trabajo futuro
+- Posibles optimizaciones
+- Mitigación de errores
+- Ejecución en hardware real (no emulado)
+
+---
+
+> 💡 *Este repositorio está diseñado como base experimental para el análisis de algoritmos cuánticos bajo condiciones realistas usando Qiskit y backends de IBM Quantum.*
+
+
