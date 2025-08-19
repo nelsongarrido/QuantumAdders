@@ -68,7 +68,70 @@ Este proyecto estudia algoritmos sumadores cuánticos ejecutados en simuladores 
 - Ejecución en hardware real (no emulado)
 
 ---
+## Circuitos Sumadores Cuánticos Analizados
 
-> 💡 *Este repositorio está diseñado como base experimental para el análisis de algoritmos cuánticos bajo condiciones realistas usando Qiskit y backends de IBM Quantum.*
+Este repositorio se basa en el artículo:
+
+> F. Orts et al. (2020). *A review on reversible quantum adders*. Journal of Network and Computer Applications, 170, 102810.  
+> [https://doi.org/10.1016/j.jnca.2020.102810](https://doi.org/10.1016/j.jnca.2020.102810)
+
+El artículo presenta una exhaustiva revisión y comparación de **sumadores cuánticos reversibles**, divididos por tipo de arquitectura. A continuación se listan todos los circuitos descritos, con referencias a sus autores.
+
+---
+
+### Half Adders (Sumadores de medio bit)
+
+| Circuito                        | Autor(es)                     | Año  |
+|--------------------------------|-------------------------------|------|
+| Toffoli + CNOT (no completo)   | Basado en Nielsen & Chuang   | 2011 |
+| Peres Gate HA                  | Hung et al.                   | 2006 |
+| Yamashita HA                   | Yamashita et al.             | 2008 |
+| RSG Gate HA/Subtractor         | Sarma & Jain                 | 2018 |
+| Fault-Tolerant HA/Subtractor  | Kaur & Dhaliwal              | 2012 |
+| Fault-Tolerant HA/Subtractor  | Balaji et al.                | 2018 |
+
+---
+
+### Full Adders (Sumadores completos)
+
+| Circuito                          | Autor(es)                          | Año  |
+|----------------------------------|------------------------------------|------|
+| Peres × 2                        | Bhagyalakshmi & Venkatesha         | 2010 |
+| Fredkin FA (mejorado por Bruce)  | Khlopotine, Bruce et al.           | 2002 |
+| MAJ + UMA                        | Cuccaro et al.                     | 2004 |
+| Cout-preserving FA               | Wang et al.                        | 2016 |
+| Controlled-V FA                  | Maslov et al.                      | 2008 |
+| RSG Gate FA/Subtractor           | Sarma & Jain                       | 2018 |
+| BKG, IG, PCTG FA (comparativa)   | Batish et al.                      | 2018 |
+| Fault-Tolerant FAs               | Zhou, Mitra, Islam, Dastan et al.  | 2009–2014 |
+
+---
+
+### Ripple-Carry Adders (RCA)
+
+| Circuito                          | Autor(es)                   | Año  |
+|----------------------------------|-----------------------------|------|
+| VBE Adder                        | Vedral, Barenco, Ekert      | 1996 |
+| CDKM RCA                         | Cuccaro et al.              | 2004 |
+| Takahashi RCA (dos variantes)    | Takahashi et al.            | 2005/2010 |
+| RCA con TR Gates                 | Thapliyal & Ranganathan     | 2011/2013 |
+| Peres + TR RCA                   | Mohammadi et al.            | 2020 |
+| Fault-Tolerant RCA               | Gidney                     | 2018 |
+| RCA con 4N ancillas              | Nagamani et al.             | 2014 |
+
+---
+
+### Carry-Lookahead Adders (CLA)
+
+| Circuito                          | Autor(es)                   | Año  |
+|----------------------------------|-----------------------------|------|
+| Log-depth CLA                    | Draper et al.               | 2004 |
+| Optimized CLA                    | Thapliyal et al.            | 2013 |
+| CLA con RPA Gate                 | Lisa & Babu                 | 2015 |
+| Dos versiones CLA                | Rahmati et al.              | 2017 |
+| FT CLA (T-count optimized)       | Thapliyal et al.            | 2020 |
+
+---
+
 
 
