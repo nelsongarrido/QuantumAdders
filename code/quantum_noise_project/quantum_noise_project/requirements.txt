@@ -1,7 +1,0 @@
-qiskit
-qiskit-aer
-qiskit-ibm-runtime
-matplotlib
-pylatexenc
-ipython
-graphviz  
