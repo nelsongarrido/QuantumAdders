@@ -1,4 +1,4 @@
-from circuitos import nielsen_chuang2011
+from circuitos import nielsen_chuang2011, yamashita2008, cnotGate, toffoliGate, hadamardGate, tGate, tDagaGate
 from simulador import get_FakeVigoV2_backend, setup_backends, transpile_for_noise, run_circuit, get_and_draw_circuit, render_transpiled, plot_device_topology
 from metricas import fidelity, success_probability, plot_comparative
 
@@ -26,11 +26,45 @@ def run_adder_experiment(adderCircuit):
 
 def main():
     try:
-        #combinaciones = [[0,0],[0,1],[1,0],[1,1]]
+        operations = [[0,0],[0,1],[1,0],[1,1]]
+        for c in operations:
+            print(c)
+            print(f"{c[0]} + {c[1]}")
         combinaciones = [[0,0]]
-        for combo in combinaciones:
-            adderCircuit = nielsen_chuang2011(1,1)
-            run_adder_experiment(adderCircuit)
+        #for combo in combinaciones:
+        #    adderCircuit = nielsen_chuang2011(0,0)
+        #    run_adder_experiment(adderCircuit)
+
+        # adderCircuit = nielsen_chuang2011(0,0)
+        # run_adder_experiment(adderCircuit)
+
+        adderCircuit = yamashita2008(0,0)
+        run_adder_experiment(adderCircuit)
+
+        # print("Puerta: CNOT--------------")
+        # cnot = cnotGate()
+        # run_adder_experiment(cnot)
+        # print("------------------------")
+
+        # print("Puerta: Toffoli--------------")
+        # toffoli = toffoliGate()
+        # run_adder_experiment(toffoli)
+        # print("------------------------")
+
+        # print("Puerta: Hadamard--------------")
+        # hadamard = hadamardGate()
+        # run_adder_experiment(hadamard)
+        # print("------------------------")
+        
+        # print("Puerta: T--------------")
+        # t = tGate()
+        # run_adder_experiment(t)
+        # print("------------------------")
+
+        # print("Puerta: T Daga--------------")
+        # tDaga = tDagaGate()
+        # run_adder_experiment(tDaga)
+        # print("------------------------")
     except Exception as e:
         print("Ocurrió un error al generar/guardar la figura:", e)
 
